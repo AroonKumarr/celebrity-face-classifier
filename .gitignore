@@ -1,0 +1,39 @@
+---
+
+### ✅ Recommended `.gitignore`
+
+Save this as `.gitignore` at the **root** (`celebrity_face_classifier/.gitignore`):
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Flask / uploads
+app_backend/static/uploads/
+app_backend/b64.txt
+
+# Model artifacts (optional – keep only final versions in repo)
+*.pkl
+*.joblib
+
+# Logs
+*.log
