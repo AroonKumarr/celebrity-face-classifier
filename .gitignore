@@ -37,3 +37,5 @@ app_backend/b64.txt
 
 # Logs
 *.log
+# Ignore dataset training data
+dataset/
